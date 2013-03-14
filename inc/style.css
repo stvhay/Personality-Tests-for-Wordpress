@@ -1,0 +1,24 @@
+.ptest-question, #action-button {
+	display:none;
+}
+
+form.test-form {
+	text-align:left;
+}
+
+.single-page-test .ptest-question, .single-page-test #action-button {
+	display:block;
+}
+.single-page-test #next-question {
+	display:none;
+}
+.question-content {
+	margin-top:20px;
+}
+
+.show-question {
+	border-bottom:1px solid #000;
+}
+.answer span {
+	padding-right:20px;
+}

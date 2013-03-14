@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PTest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-25 21:55+0200\n"
+"PO-Revision-Date: 2011-04-25 21:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ptest.php:97
+msgid "You did not select any answer. Are you sure you want to continue?"
+msgstr ""
+
+#: ../ptest.php:98
+msgid "Show Answer"
+msgstr ""
+
+#: ../ptest.php:99
+msgid "Next >"
+msgstr ""
+
+#: ../ptest.php:135
+msgid "PTest Overview"
+msgstr ""
+
+#: ../ptest.php:135
+msgid "PTest"
+msgstr ""
+
+#: ../ptest.php:136
+#: ../admin/test_form.php:21
+msgid "Add New Test"
+msgstr ""
+
+#: ../ptest.php:137
+#: ../admin/test_manage.php:10
+msgid "Edit Tests"
+msgstr ""
+
+#: ../ptest.php:138
+msgid "Settings"
+msgstr ""
+
+#: ../show_test.php:85
+msgid "Next Question"
+msgstr ""
+
+#: ../show_test.php:86
+msgid "Show the Results"
+msgstr ""
+
+#: ../show_test.php:94
+msgid "You have to register to have the test!"
+msgstr ""
+
+#: ../admin/main_options.php:14
+msgid "PTest Settings"
+msgstr ""
+
+#: ../admin/main_options.php:29
+msgid "Plugin Info"
+msgstr ""
+
+#: ../admin/main_options.php:31
+msgid "PTest Version: "
+msgstr ""
+
+#: ../admin/main_options.php:32
+msgid "PTest Database Version: "
+msgstr ""
+
+#: ../admin/main_options.php:41
+msgid "Access to the tests"
+msgstr ""
+
+#: ../admin/main_options.php:44
+msgid "Everyone can access to tests."
+msgstr ""
+
+#: ../admin/main_options.php:46
+msgid "Only registered users can access to tests."
+msgstr ""
+
+#: ../admin/main_options.php:52
+msgid "Save Options"
+msgstr ""
+
+#: ../admin/main_overview.php:4
+msgid "Read This Page Carefully!"
+msgstr ""
+
+#: ../admin/main_overview.php:5
+msgid "In order to prepare a personality test by using this plugin, it is necessary to know at minimum the below information provided."
+msgstr ""
+
+#: ../admin/main_overview.php:6
+msgid "Personality Tests"
+msgstr ""
+
+#: ../admin/main_overview.php:7
+msgid "Theory suggests that human behavior is not random but predictable and classifiable. Based on this, various\tpersonality models and tests have been devised. <br />In general, one can say that there are 2 types personality tests: <ul><li>&#8226; The ones that can be scored using a dimensional (normative) approach or </li><li>&#8226; The ones that can be scored using a typological (ipsative) approach.</li></ul> This plugin is more appropriate for ipsative tests; however it is possible to implement normative tests too with some re-interpretation."
+msgstr ""
+
+#: ../admin/main_overview.php:8
+msgid "How to Prepare a Personality Test?"
+msgstr ""
+
+#: ../admin/main_overview.php:9
+msgid "1) Select the personality model, based on which you want to build your test. (ie: MBTI)"
+msgstr ""
+
+#: ../admin/main_overview.php:10
+msgid "2) Identify the personality dimensions. (ie: MBTI defines 4 dimensions: <ul><li>&#8226; Attitude(Extraversion-Introversion), </li><li>&#8226; Perception(Sensing-Intuition), </li><li>&#8226; Judgement(Thinking-Feeling), </li><li>&#8226; Cognition(Judging-Perceiving))</li></ul>"
+msgstr ""
+
+#: ../admin/main_overview.php:11
+msgid "3) Identify 2 poles of each dimension. (ie: As for attitude dimension, one pole is extraversion and its opposite is introversion) "
+msgstr ""
+
+#: ../admin/main_overview.php:12
+msgid "4) Determine questions related to each dimension and answers related each pole of the dimension. (ie: As for attitude dimension, one question can be: Are you usually <ul><li>&#8226; a \"good mixer,\" (Extravert) or</li><li>&#8226; rather quiet and reserved? (Introvert)</li></ul> "
+msgstr ""
+
+#: ../admin/main_overview.php:13
+msgid "How to Implement Your Test with This Plugin?"
+msgstr ""
+
+#: ../admin/main_overview.php:14
+msgid "1) Click \"Add New Test\". Write a name and description for the test. Write each pole, provide a description and also provide the related opposite pole. When you are finished, save the test."
+msgstr ""
+
+#: ../admin/main_overview.php:15
+msgid "2) From the \"Edit Tests\" screen, click on \"Add/Edit/Delete Questions\" link and then \"Add a New Question\" link. Write your question and answers. Indicate the pole, to which each answer is refering. When you are finished, save the question. Repeat this step to add all the questions."
+msgstr ""
+
+#: ../admin/main_overview.php:16
+msgid "3) To add the test to your blog, insert the code [PTEST ID] into a post. ID is the test ID, where you can see from \"Edit Test\" page."
+msgstr ""
+
+#: ../admin/main_overview.php:17
+msgid "Note: In order to get meaningful results, it is recommended to place at least 10 questions for each dimension. If the number of questions are low, try to keep the question number as odd. "
+msgstr ""
+
+#: ../admin/question_form.php:16
+msgid "Edit Question"
+msgstr ""
+
+#: ../admin/question_form.php:20
+msgid "Add New Question"
+msgstr ""
+
+#: ../admin/question_form.php:27
+msgid "Go to Questions Page"
+msgstr ""
+
+#: ../admin/question_form.php:51
+#: ../admin/question_form.php:88
+msgid "Pole:"
+msgstr ""
+
+#: ../admin/question_form.php:76
+#: ../admin/question_manage.php:30
+msgid "Question"
+msgstr ""
+
+#: ../admin/question_form.php:82
+#: ../admin/question_manage.php:31
+msgid "Answers"
+msgstr ""
+
+#: ../admin/question_form.php:101
+msgid "Add New Answer"
+msgstr ""
+
+#: ../admin/question_form.php:106
+msgid "Explanation"
+msgstr ""
+
+#: ../admin/question_form.php:110
+msgid "You can use this field to make an explanation."
+msgstr ""
+
+#: ../admin/question_form.php:123
+#: ../admin/test_form.php:130
+msgid "Save"
+msgstr ""
+
+#: ../admin/question_manage.php:11
+msgid "Add/Edit/Delete Questions in Test : "
+msgstr ""
+
+#: ../admin/question_manage.php:19
+msgid "Question is deleted!"
+msgstr ""
+
+#: ../admin/question_manage.php:20
+msgid "Question is updated!"
+msgstr ""
+
+#: ../admin/question_manage.php:21
+msgid "New question is added!"
+msgstr ""
+
+#: ../admin/question_manage.php:25
+msgid "Add a New Question"
+msgstr ""
+
+#: ../admin/question_manage.php:32
+#: ../admin/test_manage.php:32
+msgid "Actions"
+msgstr ""
+
+#: ../admin/question_manage.php:61
+msgid "Edit This Question"
+msgstr ""
+
+#: ../admin/question_manage.php:69
+#: ../admin/test_manage.php:57
+msgid "Delete"
+msgstr ""
+
+#: ../admin/question_manage.php:78
+msgid "No questiones found."
+msgstr ""
+
+#: ../admin/test_form.php:13
+msgid "Edit Test"
+msgstr ""
+
+#: ../admin/test_form.php:22
+#, php-format
+msgid ""
+"<p>Congratulations - you have completed %%TEST_NAME%%.</p>\\n"
+"\\n"
+"<p>Your personality profile %%PROFILE_CODE%%. </p>"
+msgstr ""
+
+#: ../admin/test_form.php:39
+#: ../admin/test_form.php:95
+msgid "One Pole:"
+msgstr ""
+
+#: ../admin/test_form.php:51
+#: ../admin/test_form.php:97
+msgid "Description:"
+msgstr ""
+
+#: ../admin/test_form.php:60
+#: ../admin/test_form.php:99
+msgid "Opposite Pole:"
+msgstr ""
+
+#: ../admin/test_form.php:77
+msgid "Test Name"
+msgstr ""
+
+#: ../admin/test_form.php:83
+msgid "Test Description"
+msgstr ""
+
+#: ../admin/test_form.php:89
+msgid "Personality Dimensions (Write each pole of all dimensions below)"
+msgstr ""
+
+#: ../admin/test_form.php:106
+msgid "Add New Dimension"
+msgstr ""
+
+#: ../admin/test_form.php:112
+msgid "Report Screen"
+msgstr ""
+
+#: ../admin/test_form.php:115
+msgid "Usable Variables..."
+msgstr ""
+
+#: ../admin/test_form.php:117
+msgid "Variable"
+msgstr ""
+
+#: ../admin/test_form.php:117
+msgid "Value"
+msgstr ""
+
+#: ../admin/test_form.php:118
+msgid "A code compiled from shortcodes of dominant personality dimensions."
+msgstr ""
+
+#: ../admin/test_form.php:119
+msgid "The name of the test"
+msgstr ""
+
+#: ../admin/test_form.php:120
+msgid "The text entered in the description field."
+msgstr ""
+
+#: ../admin/test_manage.php:19
+msgid "Test is deleted!"
+msgstr ""
+
+#: ../admin/test_manage.php:20
+msgid "Test is updated!"
+msgstr ""
+
+#: ../admin/test_manage.php:21
+msgid "New test is added!"
+msgstr ""
+
+#: ../admin/test_manage.php:25
+msgid "Add a New Test"
+msgstr ""
+
+#: ../admin/test_manage.php:29
+msgid "ID"
+msgstr ""
+
+#: ../admin/test_manage.php:30
+msgid "Test Title"
+msgstr ""
+
+#: ../admin/test_manage.php:31
+msgid "Test Explanation"
+msgstr ""
+
+#: ../admin/test_manage.php:49
+msgid "Edit Test Properties"
+msgstr ""
+
+#: ../admin/test_manage.php:50
+msgid "Add/Edit/Delete Questions"
+msgstr ""
+
+#: ../admin/test_manage.php:66
+msgid "No Tests found."
+msgstr ""
+
