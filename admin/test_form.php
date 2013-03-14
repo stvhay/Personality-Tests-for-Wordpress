@@ -71,7 +71,7 @@ if($_REQUEST['action']== 'edit') {
 	}
 	</script>
 	
-	<form name="post" action="<?php echo PTEST_PLUGIN_URL; ?>/admin/actions.php" method="post" id="post">
+	<form name="post" action="<?php echo plugins_url('actions.php', __FILE__);?>" method="post" id="post">
 		<div id="poststuff">	
 			<div class="postbox" id="titlediv">
 				<h3 class="hndle"><span><?php _e('Test Name','ptest') ?></span></h3>

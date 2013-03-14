@@ -68,7 +68,7 @@ if($_REQUEST['action'] == 'edit') {
 	}
 	</script>
 	<!-- Answer entry form starts  -->
-	<form name="post" action="<?php echo PTEST_PLUGIN_URL; ?>/admin/actions.php" method="post" id="post">
+	<form name="post" action="<?php echo plugins_url('actions.php', __FILE__);?>" method="post" id="post">
 		<div id="poststuff">
 			<div id="<?php echo user_can_richedit() ? 'postdivrich' : 'postdiv'; ?>" class="postarea">
 				<div class="postbox">

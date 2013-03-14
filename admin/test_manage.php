@@ -49,7 +49,7 @@ require('functions.php');
 				<td><a href='edit.php?page=<?php echo PTEST_PLUGIN_NAME; ?>/admin/test_form.php&amp;action=edit&amp;test=<?php echo $test->ID?>' class='edit'><?php _e('Edit Test Properties','ptest'); ?></a></td>
 				<td><a href='edit.php?page=<?php echo PTEST_PLUGIN_NAME; ?>/admin/question_manage.php&amp;test=<?php echo $test->ID?>' class='edit'><?php _e('Add/Edit/Delete Questions','ptest')?></a> [ <?php echo $test->question_count ?> ]</td>
 				<td>
-				<form name="post" action="<?php echo PTEST_PLUGIN_URL; ?>/admin/actions.php" method="post" id="post">
+				<form name="post" action="<?php echo plugins_url('actions.php', __FILE__);?>" method="post" id="post">
 				<?php wp_nonce_field('ptest_delete_test'); ?>
 				<input type="hidden" name="action" value="delete" />
 				<input type="hidden" name="test" value="<?php echo $test->ID; ?>" />

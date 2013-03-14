@@ -60,7 +60,7 @@ $test_name = stripslashes($wpdb->get_var($wpdb->prepare("SELECT name FROM {$wpdb
 			</td>
 			<td><a href='edit.php?page=<?php echo PTEST_PLUGIN_NAME; ?>/admin/question_form.php&amp;question=<?php echo $question->ID?>&amp;action=edit&amp;test=<?php echo $_REQUEST['test']?>' class='edit'><?php _e('Edit This Question','ptest'); ?></a></td>
 			<td>
-			<form name="post" action="<?php echo PTEST_PLUGIN_URL; ?>/admin/actions.php" method="post" id="post">
+			<form name="post" action="<?php echo plugins_url('actions.php', __FILE__);?>" method="post" id="post">
 				<?php wp_nonce_field('ptest_delete_question'); ?>
 				<input type="hidden" name="test" value="<?php echo $_REQUEST['test']?>" />
 				<input type="hidden" name="question" value="<?php echo stripslashes($question->ID)?>" />
