@@ -30,23 +30,17 @@ if(isset($_REQUEST['show-result']) ) {
 			}
 			// echo " ".$pdimension." : ".$dimension_score[$pdimension]." / ";
 		}
+		$max=-1;
 		foreach ($all_dimensions as $dimension) { // Compare scores between poles of each dimension
 			$pdimension=$dimension->pdimension;
 			$ndimension=$dimension->ndimension;
-			if ($dimension_score[$pdimension]>$dimension_score[$ndimension]) {
-					$profile[$pdimension]= $pdimension;		
-			} elseif ($dimension_score[$pdimension]<$dimension_score[$ndimension]) {
-					$profile[$ndimension]= $ndimension;	
-			} elseif ($dimension_score[$pdimension]==$dimension_score[$ndimension]){
-					$n = $pdimension."/".$ndimension;
-					$nn = $ndimension."/".$pdimension;
-					if (empty($profile[$nn])) {
-					$profile[$n]= $n;
-					}
-			}
-			
+			if ($dimension_score[$pdimension]>$max) {
+			   $profile_code = $pdimension;
+			   $max = $dimension_score[$pdimension];
+			} elseif ($dimension_score[$pdimension]==$max) {
+			  $profile_code = $profile_code . ' ' . $pdimension;
+                    	}
 		}
-		$profile_code = implode("-", $profile);
 		$test_details = $wpdb->get_row($wpdb->prepare("SELECT name, description, final_screen FROM {$wpdb->prefix}ptest_main WHERE ID=%d", $_REQUEST['test_id']));
 		$replace_these	= array('%%PROFILE_CODE%%', '%%TEST_NAME%%', '%%DESCRIPTION%%');
 		$with_these		= array($profile_code, stripslashes($test_details->name), stripslashes($test_details->description));
